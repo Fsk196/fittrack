@@ -22,8 +22,8 @@ function Dashboard() {
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredFriends, setFilteredFriends] = useState([]);
-  const [userId, setUserId] = useState(""); 
-  const [qrScannerVisible, setQrScannerVisible] = useState(false); 
+  const [userId, setUserId] = useState("");
+  const [qrScannerVisible, setQrScannerVisible] = useState(false);
 
   const tabs = ["All Friends", "Add Friend"];
 
